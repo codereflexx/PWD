@@ -1,0 +1,204 @@
+#ott a{
+    text-decoration: none;
+}
+.bg{
+    transition: 0.5s ease;
+}
+.bg.scrolled{
+    background-color: rgb(255, 255, 255);
+}
+.nav-link{
+    color: white;
+}
+.nav-link.scrolled{
+    color: black;
+}
+.abs{
+    background-color: rgb(2, 0, 90);
+    color: white;
+}
+.mytext{
+    padding: 30px;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.mybtn{
+    margin-top: 30px;
+    
+}
+.abs a{
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: yellowgreen;
+    padding: 5px 15px 6px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.carousel-item h4{
+    color: teal;
+    font-family: 'Lobster', cursive;
+    
+}
+.carousel-item .row{
+    padding: 50px;
+    margin: 50px;
+}
+a{
+    color: white;
+}
+.main{
+    position: absolute;
+    margin-left: 80px;
+    height: auto;
+    width: 100%;
+    margin-top: 215px;
+    z-index: 10;
+
+}
+.main h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.main .btn{
+    padding: 0px 21px 0px 21px;
+    margin-left: -9px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: green;
+    color: white;
+    height: 50px;
+    font-size: 1.3rem;
+}
+.main .form-control{
+    border-radius: 5px 0px 0px 5px;
+    width: 550px;
+    height: 50px;
+
+}
+.myhints{
+    margin-top: 20px;
+}
+.myhints a{
+    font-weight: 700;
+    margin-left: 20px;
+}
+.myhint{
+    margin-top: 10px;
+    border: 1.2px solid white;
+    border-radius: 30px;
+    padding: 6px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+.pps{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.tutorial{
+    margin-top: 70px;
+}
+.awwo{
+    background-color: rgba(236, 247, 252, 0.904);
+    margin-top: 100px;
+    min-height: 200px;
+}
+
+.awwo{
+    padding-left: 80px;
+}
+.aww h1 {
+    font-size: 2rem;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.750);
+    font-weight: 700;
+}
+.awwo h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.750);
+}
+.awwo p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.750);
+}
+.cards{
+    margin: 30px 0px 0px 40px;
+}
+.card{
+    width: 230px;
+    border-radius: 5px;
+}
+.expl{
+    margin: 80px 0px 0px 120px;
+}
+.expl h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgba(22, 22, 22, 0.932);
+}
+.exp{
+    justify-content: space-between;
+    margin: 50px 120px 0px 120px;
+}
+.ex p{
+    font-size: 1rem;
+    background: -webkit-linear-gradient(120deg, #ff00f7, #00d0ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 80px;
+}
+.mybrands-row{
+    background-color: rgb(240, 240, 240);
+}
+.mybrands{
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+.mybrands a{
+    margin-top: 30px;
+    color: rgba(128, 128, 128, 0.678);
+    font-weight: 1000;
+    font-size: 1.3rem;
+}
+.trusted{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+#carouselExampleSlidesOnly{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+#carouselExampleSlidesOnly .carousel-inner {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#carouselExampleSlidesOnly .carousel-inner .carousel-item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('images/bg1.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+   
+}
+#carouselExampleSlidesOnly .carousel-inner .carousel-item:nth-child(2){
+    background: url('images/bg2.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+#carouselExampleSlidesOnly .carousel-inner .carousel-item:nth-child(3){
+    background: url('images/bg3.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+}
+
