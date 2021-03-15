@@ -1,0 +1,85 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* css variables */
+ @import url(/css/partials/variables.css);
+
+ /* import global styling */
+ @import url(/css/partials/_global.css);
+
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding:0 0rem 0 5rem;
+}
+.header_area .main-menu .navbar{
+    padding: 0.5rem 5rem;
+}
+.header_area .main-menu .nav-item .nav-link{
+    font-family: var(--roboto);
+    text-transform:uppercase;
+    font-weight:500;
+    padding:1.7rem;
+    color:var(--title-color)
+  }
+  .header_area .main-menu .navbar-nav .active a{
+      background: var(--gradient-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+
+  }
+  .header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+
+  .site-banner .row .site-buttons {
+      padding:0 0rem 0 0rem;
+  }
+  .site-banner .row {
+      padding: 0 7rem 0 10rem;
+      align-self: auto;
+  }
+
+
+/* end navigation */ 
+
+/* Banner area */
+.site-main .site-banner{
+    background: url(/img/banner/back1.png)no-repeat;
+    background-position: 0% 20%;
+}
+.site-main .site-banner .site-title h3{
+    padding-top: 25%;
+    font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: #f30;
+    display: inline-block;
+    margin-left: 10%;
+    transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+
+}
+.site-main .site-banner .site-title h4{
+    font-size: 2rem;
+}
+.site-main .site-banner .banner-image>img{
+    padding:rem 0;
+    width: 90rem;
+
+}
+.title-text {
+    font: normal bold 50px/ 72px var(--roboto);
+}
+/* End banner area */
